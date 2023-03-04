@@ -9,7 +9,7 @@ public class Solution {
         int second = scanner.nextInt();
         int third = scanner.nextInt();
         scanner.close();
-        
+                 
         System.out.println(first);
         System.out.println(second);
         System.out.println(third);
