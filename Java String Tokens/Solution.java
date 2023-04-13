@@ -11,7 +11,7 @@ public class Solution {
         if (s.isEmpty()) {
             System.out.println("0");
         } else {
-            String[] arrOfStr = s.split("[ !,?^&*`$@#$`//._'@]+");
+            String[] arrOfStr = s.split("[ !,?._'@]+");
             System.out.println(arrOfStr.length);
             for (String a : arrOfStr) {
                 System.out.println(a);
@@ -19,3 +19,4 @@ public class Solution {
         }
     }
 }
+1
