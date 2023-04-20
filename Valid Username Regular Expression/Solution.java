@@ -19,5 +19,5 @@ public class Solution {
 }
 
 class UsernameRegex{
-    static String pattern = "^(?=.{8,20}$)(?![_.])[a-zA-Z0-9_]";
+    static String pattern = "^[a-zA-Z][\\w]{7,29}$";
 }
